@@ -19,7 +19,7 @@ Ensure that your system has the required software dependencies.
 First, clone the `stepped-wedge-noncompliance` repository onto your
 machine.
 
-    git@github.com:jzhang1937/stepped-wedge-noncompliance.git
+    git clone git@github.com:jzhang1937/stepped-wedge-noncompliance.git
 
 # Simulations
 
@@ -36,9 +36,9 @@ steps in the next section.
 Navigate to the stepped-wedge-noncompliance directory. All scripts below
 must be executed from this directory.
 
-These commands were run the Wharton HPC Cluster. For the commands below,
-depending on the limits of your cluster, you may need to set memory and
-time limit parameters differently within
+These commands were run on the Wharton HPC Cluster. For the commands
+below, depending on the limits of your cluster, you may need to set
+memory and time limit parameters differently within
 `simulations/run_all_scripts.sh` and
 `simulations/run_all_iv_model_scripts.sh`.
 
@@ -64,11 +64,11 @@ The tables were generated using the code from the
 `process_full_results.R` file, which prints latex to the console. They
 were then edited manually for style and rounding for the manuscript.
 
-# Real data analysis
+# Reanalysis of the trial
 
-The data is not available due to privacy constraints, but we provide the
+The data is not available due to privacy reasons, but we provide the
 scripts used to generate results pertaining to the real data analysis in
 the `analysis` folder. The code for generating Figure 1, Table 2, 3, and
 the left half of Table 4 is in `analysis/primary_analyses.R`. The code
-for generating the right half of Table4 is in
+for generating the right half of Table 4 is in
 `analysis/readm30_analysis.R`.
