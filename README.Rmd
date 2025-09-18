@@ -35,11 +35,11 @@ These commands were run on the Wharton HPC Cluster. For the commands below, depe
 
 ``` 
 # ANCOVA and Horvitz-Thompson simulations:
-qsub simulations/run_all_scripts.sh
+qsub simulations/run_all_scripts.sh simulations/run_simulation.R
 
 # ivmodel simulations:
 Rscript get_seeds.R
-qsub simulations/run_all_iv_model_scripts.sh
+qsub simulations/run_all_iv_model_scripts.sh simulations/run_simulation_split.R
 ```
 
 ## Create the simulation figures

@@ -43,11 +43,11 @@ memory and time limit parameters differently within
 `simulations/run_all_iv_model_scripts.sh`.
 
     # ANCOVA and Horvitz-Thompson simulations:
-    qsub simulations/run_all_scripts.sh
+    qsub simulations/run_all_scripts.sh simulations/run_simulation.R
 
     # ivmodel simulations:
     Rscript get_seeds.R
-    qsub simulations/run_all_iv_model_scripts.sh
+    qsub simulations/run_all_iv_model_scripts.sh simulations/run_simulation_split.R
 
 ## Create the simulation figures
 
